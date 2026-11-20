@@ -1,5 +1,5 @@
 # Learning Path Predictor
-
+[![Built with askThili](https://msrit.ask.thili.ai/api/v1/public/projects/wgb5tpjkm8/badge.svg)](https://msrit.ask.thili.ai/b/wgb5tpjkm8)
 A sequential, prerequisite-aware course and study-material recommendation engine with an interactive **Streamlit** web application (`app.py`) and a zero-dependency pure-Python core (`learning_path/`).
 
 Given a student's completed courses in chronological order, the model predicts the **Top-N most relevant next courses**, displays normalized match share percentages, checks prerequisite readiness, recommends curated study materials, and projects a multi-step future learning roadmap.
