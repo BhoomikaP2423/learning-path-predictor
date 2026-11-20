@@ -1,0 +1,25 @@
+course_id,title,domain,level,credits,prerequisites,study_material
+CS101,Introduction to Python Programming,Programming,Beginner,4,,Python Docs & Automate the Boring Stuff
+CS102,Data Structures and Algorithms,Programming,Intermediate,4,CS101,CLRS Intro to Algorithms & NeetCode 150
+CS103,Object-Oriented Programming in Java,Programming,Intermediate,4,CS101,Effective Java (Joshua Bloch)
+CS201,Database Management Systems,Systems,Intermediate,4,CS101,Designing Data-Intensive Applications
+CS202,Operating Systems,Systems,Intermediate,4,CS102,Operating Systems: Three Easy Pieces
+CS203,Computer Networks,Systems,Intermediate,4,CS202,Computer Networking: A Top-Down Approach
+CS204,Software Engineering Principles,Systems,Intermediate,3,CS102|CS103,Clean Code & System Design Primer
+DS101,Statistics and Probability for Data Science,Data Science,Beginner,4,,Think Stats & Khan Academy Probability
+DS102,Data Analysis with Pandas and NumPy,Data Science,Beginner,3,CS101,Python for Data Analysis (Wes McKinney)
+DS201,Machine Learning Foundations,Data Science,Intermediate,4,CS101|DS101|DS102,Hands-On Machine Learning (Aurélien Géron)
+DS202,Deep Learning and Neural Networks,Data Science,Advanced,4,DS201,Deep Learning Specialization & PyTorch Tutorials
+DS203,Natural Language Processing,Data Science,Advanced,4,DS201,Speech and Language Processing (Jurafsky)
+DS204,Computer Vision,Data Science,Advanced,4,DS201,CS231n Convolutional Neural Networks Notes
+DS301,MLOps and Model Deployment,Data Science,Advanced,3,DS201|CL101,Made With ML & Designing ML Systems
+WD101,HTML CSS and Modern JavaScript,Web Development,Beginner,3,,MDN Web Docs & Eloquent JavaScript
+WD102,Frontend Development with React,Web Development,Intermediate,4,WD101,React Official Docs & Epic React
+WD201,Backend APIs with Node and Express,Web Development,Intermediate,4,WD101,Node.js Design Patterns
+WD202,Full-Stack Web Architecture,Web Development,Advanced,4,WD102|WD201|CS201,Full Stack Open (University of Helsinki)
+CL101,Cloud Computing Fundamentals,Cloud & DevOps,Beginner,3,CS101,AWS Cloud Practitioner Essentials
+CL201,Docker and Kubernetes Orchestration,Cloud & DevOps,Intermediate,4,CL101|CS202,Kubernetes Up & Running
+CL202,CI/CD Pipelines and DevOps,Cloud & DevOps,Intermediate,3,CL101,The DevOps Handbook & GitHub Actions Docs
+SEC101,Cybersecurity Fundamentals,Security,Beginner,3,CS203,CompTIA Security+ Study Guide
+SEC201,Network Security and Cryptography,Security,Intermediate,4,SEC101|CS203,Cryptography Engineering (Ferguson)
+AI301,Generative AI and LLM Applications,Data Science,Advanced,4,DS202|DS203,LangChain Docs & Hugging Face NLP Course
